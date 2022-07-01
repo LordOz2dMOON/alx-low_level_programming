@@ -9,7 +9,7 @@ int main(void)
 {
 	char ltr[] = "et\n";
 
-	char putchar(ltr);
+	char putchar(char ltr);
 
 	return (0);	
 }
