@@ -19,8 +19,8 @@ int main(void)
 	  printf("%i is positive", n);
 	}
 	else{
-	  printf("%d is zero", ni);
+	  printf("%d is zero", n);
         }
 
-	  return (0)	
+	  return (0);
 }
