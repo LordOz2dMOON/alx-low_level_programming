@@ -8,7 +8,7 @@
 int main(void)
 {
 	char et[] = "et\n";
-	putchar(et);
+	char putchar(et);
 
 	return (0);	
 }
