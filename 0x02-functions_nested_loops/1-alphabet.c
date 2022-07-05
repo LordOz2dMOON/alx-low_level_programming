@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - Contains a function that prints small letters of the alphabet
+ * print_alphabet - Function that prints small letters of the alphabet
  *
  * Return: Always 0: (Success)
  */
@@ -12,6 +12,6 @@ void print_alphabet(void)
 	for (l = 'a'; l <= 'z'; l++)
 	{
 		_putchar(l);
-	}	
+	}
 	_putchar('\n');
 }
