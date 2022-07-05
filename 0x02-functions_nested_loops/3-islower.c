@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * _islower - check if the alphabet is lowercase
+ * _islower - check if the alphabet is lowercase.
  *
- * c - collects and stores an integer
+ *@c: collects and stores an integer.
  *
- * return - return 1 if its lowercase else return 0
- *
- * Return - Always 0: (Success)
+ * Return: On success 1.
+ * On error: 0 is returned.
  */
 int _islower(int c)
 {
