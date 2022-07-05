@@ -10,7 +10,7 @@
  */
 int _isalpha(int c)
 {
-	if ((c >= 'A' || 'a') && (c <= 'Z' || 'z'))
+	if ((c >= 'A' && 'a') && (c <= 'Z' && 'z'))
 	return (1);
 	else
 	{
