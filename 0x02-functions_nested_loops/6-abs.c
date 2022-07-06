@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * _abs - prints the absolute value of an integer
+ * _abs - computes the absolute value of an integer
  *
- * @int - stores an int
+ * Return - Always 0 : (Success)
+ *
  */
-int _abs(int)
+int _abs(int n)
 {
-	return (int);
+	return int n;
 }
