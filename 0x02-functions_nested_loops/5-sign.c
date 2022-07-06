@@ -3,9 +3,11 @@
 /**
  *print_sign - print the sign of a number
  *
- * @n: Collects an integer n
+ *@n: Collects an integer n
  *
- * Return - Always 0: (Success)
+ *Return: if > 0 return 1 and print +
+ *Return: if < 0 return -1 and print -
+ *Return: if == 0 return 0 and print 0
  */
 int print_sign(int n)
 {
