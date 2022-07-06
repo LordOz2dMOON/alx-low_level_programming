@@ -4,18 +4,18 @@
  * jack_bauer - prints every minute of the day
  */
 void jack_bauer(void)
-{	
+{
 	int i, j;
 
-	for (h = 0; h < 24; h++)
+	for (i = 0; i < 24; i++)
 	{
-		for (m = 0; m < 60; m++)
+		for (j = 0; j < 60, j++)
 		{
-			_putchar((h / 10) + '0');
-			_putchar((h % 10) + '0');
+			_putchar((i / 10) + '0');
+			_putchar((i % 10) + '0');
 			_putchar(':');
-			_putchar((m / 10) + '0');
-			_putchar((m % 10) + '0');
+			_putchar((j / 10) + '0');
+			_putchar((j % 10) + '0');
 			_putchar('\n');
 		}
 	}
