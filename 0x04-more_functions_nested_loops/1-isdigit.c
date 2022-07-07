@@ -10,7 +10,7 @@
  */
 int _isdigit(int c)
 {
-	while (c < 10)
+	while (c <= 9)
 	return (1);
 	else
 	{
