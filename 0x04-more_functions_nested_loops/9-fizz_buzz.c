@@ -13,19 +13,13 @@ void FizzBuzz(void)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			char fb[] = "FizzBuzz";
-
-			printf("%s", fb);
+			printf("FizzBuzz");
 		} else if (i % 3 == 0)
 		{
-			char f[] = "Fizz";
-
-			printf("%s", f);
+			printf("Fizz");
 		} else if (i % 5 == 0)
 		{
-			char b[] = "Buzz";
-
-			printf("%s", b);
+			printf("Buzz");
 		}
 		printf("%i ", i);
 	}
