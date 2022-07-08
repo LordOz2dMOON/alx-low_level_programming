@@ -3,9 +3,10 @@
 /**
  * print_triangle - print a triangle followed
  * by a new line.
+ * @size: collects and stores an integer
  * Return: void.
  */
-void print_triangle(void)
+void print_triangle(int size)
 {
 	int i = 1, ii;
 
