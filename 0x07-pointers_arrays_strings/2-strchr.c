@@ -10,28 +10,23 @@
 char *_strchr(char *s, char c)
 {
 	int i;
-	char null[] = "NULL";
-	char j[];
 
 	i = 0;
-	while (s[i] < strlen(s))
+	while (i < strlen(s))
 	{
-		if (s[i] == c)
+		if (*(s + i) == c)
 		{
-			while (s[i] != '\0')
+			while (i != '\0')
 			{
-				j = _putchar (*(s + i));
-				return (j);
+				return (*(s + i));
 				i++;
 			}
-
-		} else if (s[i] != c && s[i] != '\0')
-		{
-			continue;
-		} else if (s[i] == '\0')
-		{
-			return (null);
 		}
+		else if (s[i] == '\0')
+			break;
+		else if (s[i] != c)
+			continue;
 		i++;
 	}
+	return ('\0');
 }
