@@ -15,7 +15,7 @@ unsigned int _strspn(char *s, char *accept)
 	for ( ; i >= 0; i++)
 	{
 		if (*(s + i) == ' ')
-		break;
+			break;
 	}
 	while (j >= 0)
 	{
