@@ -9,24 +9,18 @@
  */
 char *_strchr(char *s, char c)
 {
-	int i;
+	int a;
 
-	i = 0;
-	while (i < strlen(s))
+	while (1)
 	{
-		if (*(s + i) == c)
+		a = *s++;
+		if (a == c)
 		{
-			while (i != '\0')
-			{
-				return (*(s + i));
-				i++;
-			}
+			return (s - 1);
 		}
-		else if (s[i] == '\0')
-			break;
-		else if (s[i] != c)
-			continue;
-		i++;
+		if (a == 0)
+		{
+			return (NULL);
+		}
 	}
-	return ('\0');
 }
