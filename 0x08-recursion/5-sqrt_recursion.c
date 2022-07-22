@@ -1,5 +1,6 @@
 #include "main.h"
-int sqrt(int, int);
+
+int _sqrt(int, int);
 
 /**
  * _sqrt_recursion - find the square root of a number
