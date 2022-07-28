@@ -6,8 +6,8 @@
  * @argv: array of arguements passed
  * Return: integer
  */
-int main(argc, char *argv[]__attribute__((unused)))
+int main(int argc, char *argv[]__attribute__((unused)))
 {
-	printf("%d\n", argc - 1);
+	printf("%d\n", argc);
 	return (0);
 }
