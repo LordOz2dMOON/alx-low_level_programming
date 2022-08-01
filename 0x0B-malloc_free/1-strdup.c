@@ -13,7 +13,7 @@ char *_strdup(char *str)
 {
 	char *cpy;
 	int i;
-	int length = sizeof(cpy)/sizeof(str[0]);  
+	int length = sizeof(cpy)/sizeof(cpy[0]);
 
 	if (str == NULL)
 		return (NULL);
