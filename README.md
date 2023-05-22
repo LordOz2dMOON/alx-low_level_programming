@@ -1,0 +1,1 @@
+This directory contains folders pertaining to low level programming in c.
