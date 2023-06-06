@@ -1,0 +1,1 @@
+This directory is for even more pointers, strings and arrays c files.
