@@ -1,12 +1,17 @@
 #include <stdio.h>
+#include <string.h>
+#include <unistd.h>
 
 /**
- *main - print to standard error with fwrite function
- *Return: Return 1
+ * main - Entry point
+ *
+ * Return: 1 (Success)
  */
 int main(void)
 {
-	const char *message = "and that piece of art is useful\"
-		- Dora Korpar\0, 2015-10-19\0\n";
-	fwrite(message, 1, strlen(message), stderr);
+	char *text = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	int length = strlen(text);
+
+	write(2, text, length);
+	return (1);
 }
