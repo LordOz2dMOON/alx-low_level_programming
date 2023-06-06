@@ -1,26 +1,25 @@
 #include <stdio.h>
 
 /**
- *main - print  all possible combinations of single-digit numbers
- *Return: Return 0
+ * main - Entry point
+ *
+ * Return: 0 (Success)
  */
 int main(void)
 {
-	int i = 48;
-	while (i != 58)
+	int i = 0;
+
+	while (i < 10)
 	{
-		if (i != 57)
+		putchar(i + '0');
+		if (i < 9)
 		{
-			putchar(i);
-			putchar(',');
-		}
-		else if(i == 57)
-		{
-			putchar(i);
-			putchar(' ');
+			putchar(44);
+			putchar(32);
 		}
 		i++;
 	}
 	putchar('\n');
-	return 0;
+
+	return (0);
 }
